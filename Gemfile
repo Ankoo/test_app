@@ -32,6 +32,8 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'devise'
+gem 'factory_girl'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
@@ -43,4 +45,4 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-gem 'devise'
+

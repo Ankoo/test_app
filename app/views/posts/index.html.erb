@@ -22,7 +22,7 @@
         <% if !post.visible %>
           <td><%= link_to 'opublikuj', "/post/publish?id=#{post.id}" %></td>
         <% else %>
-          <td>widoczny</td>
+          <td>visible</td>
         <% end %>
         <td><%= link_to 'Show', post %></td>
         <td><%= link_to 'Edit', edit_post_path(post) %></td>
